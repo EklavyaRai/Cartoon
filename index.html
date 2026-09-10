@@ -36,26 +36,47 @@
         </div>
     </div>
 
-    <!-- Main Gallery Section -->
+    <!-- Main Content Section with Vertical Sections -->
     <main class="container">
-        <!-- Channel Filter Tabs -->
-        <div class="channel-tabs">
-            <button class="tab-btn active" onclick="filterByChannel('All', this)">Popular Cartoons of All Time</button>
-            <button class="tab-btn" onclick="filterByChannel('Cartoon Network', this)">Cartoon Network</button>
-            <button class="tab-btn" onclick="filterByChannel('Nickelodeon', this)">Nickelodeon</button>
-            <button class="tab-btn" onclick="filterByChannel('Disney', this)">Disney</button>
-        </div>
-
-        <h2 id="sectionTitle">Popular Cartoons of All Time</h2>
-
-        <!-- Horizontal Slider -->
-        <div class="slider-wrapper">
-            <button class="slider-btn left-btn" onclick="slideLeft()">&#10094;</button>
-            <div class="card-slider" id="cartoonGrid">
-                <!-- Cards generated via JavaScript -->
+        <!-- Section 1: Popular Cartoons of All Time -->
+        <section class="channel-section">
+            <h2>Popular Cartoons of All Time</h2>
+            <div class="slider-wrapper">
+                <button class="slider-btn left-btn" onclick="slideRow('popularGrid', -300)">&#10094;</button>
+                <div class="card-slider" id="popularGrid"></div>
+                <button class="slider-btn right-btn" onclick="slideRow('popularGrid', 300)">&#10095;</button>
             </div>
-            <button class="slider-btn right-btn" onclick="slideRight()">&#10095;</button>
-        </div>
+        </section>
+
+        <!-- Section 2: Cartoon Network -->
+        <section class="channel-section">
+            <h2>Cartoon Network</h2>
+            <div class="slider-wrapper">
+                <button class="slider-btn left-btn" onclick="slideRow('cnGrid', -300)">&#10094;</button>
+                <div class="card-slider" id="cnGrid"></div>
+                <button class="slider-btn right-btn" onclick="slideRow('cnGrid', 300)">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- Section 3: Nickelodeon -->
+        <section class="channel-section">
+            <h2>Nickelodeon</h2>
+            <div class="slider-wrapper">
+                <button class="slider-btn left-btn" onclick="slideRow('nickGrid', -300)">&#10094;</button>
+                <div class="card-slider" id="nickGrid"></div>
+                <button class="slider-btn right-btn" onclick="slideRow('nickGrid', 300)">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- Section 4: Disney -->
+        <section class="channel-section">
+            <h2>Disney</h2>
+            <div class="slider-wrapper">
+                <button class="slider-btn left-btn" onclick="slideRow('disneyGrid', -300)">&#10094;</button>
+                <div class="card-slider" id="disneyGrid"></div>
+                <button class="slider-btn right-btn" onclick="slideRow('disneyGrid', 300)">&#10095;</button>
+            </div>
+        </section>
     </main>
 
     <footer>

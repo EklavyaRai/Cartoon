@@ -73,51 +73,18 @@ body {
     font-size: 1.1rem;
 }
 
-/* Main Gallery & Channel Tabs */
+/* Vertical Sections */
 .container {
     padding: 2rem 5%;
     flex: 1;
 }
 
-.channel-tabs {
-    display: flex;
-    gap: 0.8rem;
-    overflow-x: auto;
-    padding-bottom: 1rem;
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid #334155;
+.channel-section {
+    margin-bottom: 2.5rem;
 }
 
-.channel-tabs::-webkit-scrollbar {
-    display: none;
-}
-
-.tab-btn {
-    background-color: #1e293b;
-    color: #94a3b8;
-    border: 1px solid #334155;
-    padding: 0.6rem 1.2rem;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: all 0.3s ease;
-}
-
-.tab-btn:hover {
-    color: #ffffff;
-    border-color: #f43f5e;
-}
-
-.tab-btn.active {
-    background-color: #f43f5e;
-    color: #ffffff;
-    border-color: #f43f5e;
-}
-
-.container h2 {
-    margin-bottom: 1.5rem;
+.channel-section h2 {
+    margin-bottom: 1rem;
     font-weight: 600;
     border-left: 4px solid #f43f5e;
     padding-left: 0.8rem;
@@ -134,17 +101,15 @@ body {
     gap: 1.5rem;
     overflow-x: auto;
     scroll-behavior: smooth;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     width: 100%;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .card-slider::-webkit-scrollbar {
     display: none;
-}
-
-.card-slider {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
 }
 
 .slider-btn {
