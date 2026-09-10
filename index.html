@@ -36,11 +36,15 @@
         </div>
     </div>
 
-    <!-- Cartoon Gallery Grid -->
+    <!-- Cartoon Gallery Horizontal Slider -->
     <main class="container">
-        <h2>Popular Shows</h2>
-        <div class="card-grid" id="cartoonGrid">
-            <!-- Cards will be generated via JavaScript -->
+        <h2>Popular Cartoons of All Time</h2>
+        <div class="slider-wrapper">
+            <button class="slider-btn left-btn" onclick="slideLeft()">&#10094;</button>
+            <div class="card-slider" id="cartoonGrid">
+                <!-- Cards will be generated via JavaScript -->
+            </div>
+            <button class="slider-btn right-btn" onclick="slideRight()">&#10095;</button>
         </div>
     </main>
 

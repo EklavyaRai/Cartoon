@@ -1,10 +1,10 @@
-// Updated Cartoon Data Array (10 Popular Cartoons with TV Channels)
+// Cartoon Data Array (10 Popular Cartoons with TV Channels)
 const cartoons = [
     {
         title: "Tom & Jerry",
         channel: "Cartoon Network / POGO",
         thumbnail: "https://i.pinimg.com/736x/b3/58/f0/b358f0520d00e199e967203478dbcd41.jpg",
-        videoUrl: "https://youtu.be/t0Q2otsqC4I?si=EMTvcxitw7V8kbIp"
+        videoUrl: "https://www.youtube.com/embed/t0Q2otsqC4I"
     },
     {
         title: "SpongeBob SquarePants",
@@ -72,7 +72,6 @@ function loadCartoons(data) {
         card.className = "card";
         card.onclick = () => openPlayer(item.title, item.videoUrl);
 
-        // Updated card element to show Channel details instead of Genre
         card.innerHTML = `
             <img src="${item.thumbnail}" alt="${item.title}">
             <div class="card-info">
@@ -82,6 +81,17 @@ function loadCartoons(data) {
         `;
         grid.appendChild(card);
     });
+}
+
+// Horizontal Slider Controls
+function slideLeft() {
+    const slider = document.getElementById("cartoonGrid");
+    slider.scrollBy({ left: -300, behavior: "smooth" });
+}
+
+function slideRight() {
+    const slider = document.getElementById("cartoonGrid");
+    slider.scrollBy({ left: 300, behavior: "smooth" });
 }
 
 // Search Filter Functionality
