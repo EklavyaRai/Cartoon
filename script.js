@@ -25,7 +25,7 @@ const cartoonData = {
             title: "Ninja Hattori", 
             type: "Slice of Life / Comedy", 
             channel: "Nickelodeon / Disney", 
-            thumbnail: "https://i.pinimg.com/736x/0a/5f/07/0a5f073bd75fece31a6e68442f505fc5.jpg",
+            thumbnail: "https://i.pinimg.com/736x/d5/6a/e3/d56ae300c79ed1a355529ce5c540782a.jpg",
             videoUrl: "https://youtu.be/1RK1b8zGXPI?si=xihNC98SRAOiXonL"
         },
         { 
