@@ -13,34 +13,38 @@
     <header class="navbar">
         <div class="logo">Child<span>hood</span></div>
         <div class="search-box">
-            <input type="text" id="searchInput" placeholder="Search cartoons or genres..." onkeyup="handleSearch()">
+            <input type="text" id="searchInput" placeholder="Search cartoons..." onkeyup="handleSearch()">
         </div>
     </header>
 
-    <!-- Main Layout Container -->
-    <div class="main-layout">
-        <!-- Vertical Tab Navigation -->
-        <aside class="sidebar">
-            <button class="tab-btn active" onclick="switchTab(event, 'popular')">
-                <span>🔥</span> Popular Cartoons
-            </button>
-            <button class="tab-btn" onclick="switchTab(event, 'cartoon-network')">
-                <span>📺</span> Cartoon Network
-            </button>
-            <button class="tab-btn" onclick="switchTab(event, 'nickelodeon')">
-                <span>🍊</span> Nickelodeon
-            </button>
-            <button class="tab-btn" onclick="switchTab(event, 'disney')">
-                <span>🏰</span> Disney
-            </button>
-        </aside>
+    <!-- Main Content Area -->
+    <main class="content-area">
 
-        <!-- Dynamic Content Area -->
-        <section class="content-area">
-            <div id="tabTitle" class="section-title">Popular Cartoons of All Time</div>
-            <div class="cartoon-grid" id="cartoonGrid"></div>
+        <!-- Popular Cartoons Section -->
+        <section class="cartoon-section" id="section-popular">
+            <h2 class="section-title">🔥 Popular Cartoons of All Time</h2>
+            <div class="cartoon-grid" id="grid-popular"></div>
         </section>
-    </div>
+
+        <!-- Cartoon Network Section -->
+        <section class="cartoon-section" id="section-cartoon-network">
+            <h2 class="section-title">📺 Cartoon Network Shows</h2>
+            <div class="cartoon-grid" id="grid-cartoon-network"></div>
+        </section>
+
+        <!-- Nickelodeon Section -->
+        <section class="cartoon-section" id="section-nickelodeon">
+            <h2 class="section-title">🍊 Nickelodeon Shows</h2>
+            <div class="cartoon-grid" id="grid-nickelodeon"></div>
+        </section>
+
+        <!-- Disney Section -->
+        <section class="cartoon-section" id="section-disney">
+            <h2 class="section-title">🏰 Disney Channel & XD Shows</h2>
+            <div class="cartoon-grid" id="grid-disney"></div>
+        </section>
+
+    </main>
 
     <!-- Video Player Modal -->
     <div id="videoModal" class="modal">

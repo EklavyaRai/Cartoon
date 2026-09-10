@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3%;
+    padding: 1rem 5%;
     background-color: #1e293b;
     border-bottom: 1px solid #334155;
     position: sticky;
@@ -52,62 +52,26 @@ body {
     border-color: #38bdf8;
 }
 
-/* Main Layout Structure */
-.main-layout {
-    display: flex;
-    flex: 1;
-}
-
-/* Vertical Sidebar Navigation */
-.sidebar {
-    width: 260px;
-    background-color: #1e293b;
-    padding: 1.5rem 1rem;
+/* Main Content Area */
+.content-area {
+    padding: 2rem 5%;
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
-    border-right: 1px solid #334155;
+    gap: 3rem;
 }
 
-.tab-btn {
+.cartoon-section {
     display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    padding: 0.9rem 1.2rem;
-    background: transparent;
-    color: #cbd5e1;
-    border: none;
-    border-radius: 10px;
-    font-size: 0.95rem;
-    font-weight: 600;
-    cursor: pointer;
-    text-align: left;
-    transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.tab-btn:hover {
-    background-color: #334155;
-    color: #ffffff;
-}
-
-.tab-btn.active {
-    background-color: #f43f5e;
-    color: #ffffff;
-}
-
-/* Dynamic Content Area */
-.content-area {
-    flex: 1;
-    padding: 2rem;
-    overflow-y: auto;
+    flex-direction: column;
+    gap: 1.2rem;
 }
 
 .section-title {
     font-size: 1.6rem;
     font-weight: 700;
-    margin-bottom: 1.5rem;
     border-left: 4px solid #38bdf8;
     padding-left: 0.8rem;
+    color: #f8fafc;
 }
 
 /* Cartoon Card Grid */
@@ -172,7 +136,7 @@ body {
 
 .no-results {
     color: #94a3b8;
-    font-size: 1rem;
+    font-size: 0.95rem;
     grid-column: 1 / -1;
 }
 
@@ -226,24 +190,4 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 8px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .main-layout {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        width: 100%;
-        flex-direction: row;
-        overflow-x: auto;
-        padding: 0.8rem;
-        border-right: none;
-        border-bottom: 1px solid #334155;
-    }
-
-    .tab-btn {
-        white-space: nowrap;
-    }
 }
