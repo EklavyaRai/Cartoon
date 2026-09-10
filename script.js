@@ -46,7 +46,7 @@ const cartoonData = {
             title: "Phineas and Ferb", 
             type: "Musical / Sci-Fi", 
             channel: "Disney Channel", 
-            thumbnail: "https://i.postimg.cc/26L135V1/phineas.jpg",
+            thumbnail: "https://i.pinimg.com/1200x/31/8f/09/318f09c1431bf7ad9a758c0442a4f24c.jpgS",
             videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg"
         },
         { 
