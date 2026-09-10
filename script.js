@@ -1,52 +1,169 @@
 const cartoonData = {
     popular: [
-        { title: "Doraemon", type: "Sci-Fi Comedy", channel: "Disney (Hungama TV)", thumbnail: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop" },
-        { title: "Tom and Jerry", type: "Slapstick Comedy", channel: "Cartoon Network", thumbnail: "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=400&auto=format&fit=crop" },
-        { title: "Shinchan", type: "Slice of Life / Comedy", channel: "Disney (Hungama TV)", thumbnail: "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=400&auto=format&fit=crop" },
-        { title: "Ninja Hattori", type: "Action / Comedy", channel: "Nickelodeon / Disney", thumbnail: "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?q=80&w=400&auto=format&fit=crop" },
-        { title: "Ben 10 (Original & Alien Force)", type: "Sci-Fi / Action", channel: "Cartoon Network", thumbnail: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=400&auto=format&fit=crop" },
-        { title: "Pokémon", type: "Anime / Fantasy", channel: "Cartoon Network / Disney", thumbnail: "https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?q=80&w=400&auto=format&fit=crop" },
-        { title: "SpongeBob SquarePants", type: "Surreal Comedy", channel: "Nickelodeon", thumbnail: "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?q=80&w=400&auto=format&fit=crop" },
-        { title: "Phineas and Ferb", type: "Musical / Sci-Fi", channel: "Disney Channel", thumbnail: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" },
-        { title: "Oggy and the Cockroaches", type: "Slapstick Comedy", channel: "Cartoon Network", thumbnail: "https://images.unsplash.com/photo-1569003339405-ea396a5a8a90?q=80&w=400&auto=format&fit=crop" },
-        { title: "Dragon Ball Z", type: "Anime / Martial Arts", channel: "Cartoon Network", thumbnail: "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=400&auto=format&fit=crop" }
+        { 
+            title: "Doraemon", 
+            type: "Sci-Fi Comedy", 
+            channel: "Disney (Hungama TV)", 
+            thumbnail: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/5U2q_e3S9bE"
+        },
+        { 
+            title: "Tom and Jerry", 
+            type: "Slapstick Comedy", 
+            channel: "Cartoon Network", 
+            thumbnail: "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/t0Q2otsqC4I"
+        },
+        { 
+            title: "Shinchan", 
+            type: "Slice of Life / Comedy", 
+            channel: "Disney (Hungama TV)", 
+            thumbnail: "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/8vR4S3z_JdE"
+        },
+        { 
+            title: "Ninja Hattori", 
+            type: "Action / Comedy", 
+            channel: "Nickelodeon / Disney", 
+            thumbnail: "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        { 
+            title: "Ben 10 (Original)", 
+            type: "Sci-Fi / Action", 
+            channel: "Cartoon Network", 
+            thumbnail: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/sA_N3aI6oCo"
+        },
+        { 
+            title: "Pokémon", 
+            type: "Anime / Fantasy", 
+            channel: "Cartoon Network / Disney", 
+            thumbnail: "https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/uBYORdr_TY8"
+        },
+        { 
+            title: "SpongeBob SquarePants", 
+            type: "Surreal Comedy", 
+            channel: "Nickelodeon", 
+            thumbnail: "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/r9L4AseD-aA"
+        },
+        { 
+            title: "Phineas and Ferb", 
+            type: "Musical / Sci-Fi", 
+            channel: "Disney Channel", 
+            thumbnail: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg"
+        }
     ],
     "cartoon-network": [
-        { title: "Tom and Jerry", type: "Slapstick Comedy", era: "Pre-2000 Classics" },
-        { title: "Looney Tunes / Baby Looney Tunes", type: "Slapstick Comedy", era: "Pre-2000 Classics" },
-        { title: "The Flintstones", type: "Sitcom / Comedy", era: "Pre-2000 Classics" },
-        { title: "Dexter’s Laboratory", type: "Sci-Fi / Comedy", era: "Pre-2000 Classics" },
-        { title: "The Powerpuff Girls", type: "Superhero / Action / Comedy", era: "Pre-2000 Classics" },
-        { title: "Johnny Bravo", type: "Comedy", era: "Pre-2000 Classics" },
-        { title: "Courage the Cowardly Dog", type: "Horror / Surreal Comedy", era: "Pre-2000 Classics" },
-        { title: "Ben 10", type: "Sci-Fi / Superhero", era: "2000–2010 Golden Era" },
-        { title: "Samurai Jack", type: "Action / Martial Arts / Sci-Fi", era: "2000–2010 Golden Era" },
-        { title: "Codename: Kids Next Door", type: "Action / Secret Agent", era: "2000–2010 Golden Era" },
-        { title: "Adventure Time", type: "Fantasy / Adventure", era: "2010s–Present" },
-        { title: "Regular Show", type: "Surreal Comedy / Sci-Fi", era: "2010s–Present" }
+        { 
+            title: "Tom and Jerry", 
+            type: "Slapstick Comedy", 
+            era: "Pre-2000 Classics",
+            thumbnail: "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/t0Q2otsqC4I"
+        },
+        { 
+            title: "Dexter’s Laboratory", 
+            type: "Sci-Fi / Comedy", 
+            era: "Pre-2000 Classics",
+            thumbnail: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/2XQd70M3p9E"
+        },
+        { 
+            title: "The Powerpuff Girls", 
+            type: "Superhero / Action / Comedy", 
+            era: "Pre-2000 Classics",
+            thumbnail: "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/4mmCMUPCNgE"
+        },
+        { 
+            title: "Courage the Cowardly Dog", 
+            type: "Horror / Surreal Comedy", 
+            era: "Pre-2000 Classics",
+            thumbnail: "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/3aG_oKqD-yA"
+        },
+        { 
+            title: "Ben 10", 
+            type: "Sci-Fi / Superhero", 
+            era: "2000–2010 Golden Era",
+            thumbnail: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/sA_N3aI6oCo"
+        },
+        { 
+            title: "Samurai Jack", 
+            type: "Action / Martial Arts", 
+            era: "2000–2010 Golden Era",
+            thumbnail: "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/VSrv_n4tw7w"
+        }
     ],
     nickelodeon: [
-        { title: "SpongeBob SquarePants", type: "Slapstick / Surreal Comedy", era: "Pre-2000 Classics" },
-        { title: "Hey Arnold!", type: "Slice of Life / Drama / Comedy", era: "Pre-2000 Classics" },
-        { title: "CatDog", type: "Slapstick Comedy", era: "Pre-2000 Classics" },
-        { title: "Avatar: The Last Airbender", type: "Action / High Fantasy", era: "2000–2010 Golden Era" },
-        { title: "The Fairly OddParents", type: "Fantasy / Slapstick Comedy", era: "2000–2010 Golden Era" },
-        { title: "Danny Phantom", type: "Superhero / Sci-Fi / Action", era: "2000–2010 Golden Era" },
-        { title: "The Adventures of Jimmy Neutron", type: "Sci-Fi / Comedy", era: "2000–2010 Golden Era" },
-        { title: "PAW Patrol", type: "Action / Rescue / Educational", era: "Preschool (Nick Jr.)" },
-        { title: "The Loud House", type: "Family / Slice of Life", era: "2010s–Present" }
+        { 
+            title: "SpongeBob SquarePants", 
+            type: "Slapstick Comedy", 
+            era: "Pre-2000 Classics",
+            thumbnail: "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/r9L4AseD-aA"
+        },
+        { 
+            title: "Avatar: The Last Airbender", 
+            type: "Action / High Fantasy", 
+            era: "2000–2010 Golden Era",
+            thumbnail: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/d1EnW4kn1kg"
+        },
+        { 
+            title: "The Fairly OddParents", 
+            type: "Fantasy / Slapstick", 
+            era: "2000–2010 Golden Era",
+            thumbnail: "https://images.unsplash.com/photo-1514539079130-25950c84af65?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/K9qN95F5q14"
+        },
+        { 
+            title: "Danny Phantom", 
+            type: "Superhero / Sci-Fi", 
+            era: "2000–2010 Golden Era",
+            thumbnail: "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/74zJkEAn6Yk"
+        }
     ],
     disney: [
-        { title: "DuckTales", type: "Adventure / Comedy", era: "Pre-2000 Classics" },
-        { title: "Recess", type: "School Comedy / Slice of Life", era: "Pre-2000 Classics" },
-        { title: "Phineas and Ferb", type: "Musical / Sci-Fi / Slapstick", era: "2000–2010 Era" },
-        { title: "Kim Possible", type: "Action / Secret Agent", era: "2000–2010 Era" },
-        { title: "Gravity Falls", type: "Mystery / Supernatural", era: "2010s–Present" },
-        { title: "The Owl House", type: "Dark Fantasy / Horror-Comedy", era: "2010s–Present" }
+        { 
+            title: "DuckTales", 
+            type: "Adventure / Comedy", 
+            era: "Pre-2000 Classics",
+            thumbnail: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/gP0Neif7Y4E"
+        },
+        { 
+            title: "Phineas and Ferb", 
+            type: "Musical / Sci-Fi", 
+            era: "2000–2010 Era",
+            thumbnail: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg"
+        },
+        { 
+            title: "Kim Possible", 
+            type: "Action / Secret Agent", 
+            era: "2000–2010 Era",
+            thumbnail: "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/h_D3VFfhvs4"
+        },
+        { 
+            title: "Gravity Falls", 
+            type: "Mystery / Supernatural", 
+            era: "2010s–Present",
+            thumbnail: "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=400&auto=format&fit=crop",
+            videoUrl: "https://www.youtube.com/embed/tctX7B9UUMQ"
+        }
     ]
 };
 
-// Render cards into a specific section's grid
+// Render cards into a specific section grid
 function renderSection(categoryKey, containerId, filterText = "") {
     const grid = document.getElementById(containerId);
     grid.innerHTML = "";
@@ -66,12 +183,17 @@ function renderSection(categoryKey, containerId, filterText = "") {
     filtered.forEach(item => {
         const card = document.createElement("div");
         card.className = "card";
-        card.onclick = () => openPlayer(item.title);
+        card.onclick = () => openPlayer(item.title, item.videoUrl);
 
         const imgSrc = item.thumbnail || "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=400&auto=format&fit=crop";
 
         card.innerHTML = `
-            <img src="${imgSrc}" alt="${item.title}" loading="lazy">
+            <div class="card-img-wrapper">
+                <img src="${imgSrc}" alt="${item.title}" loading="lazy">
+                <div class="play-overlay">
+                    <span>▶</span>
+                </div>
+            </div>
             <div class="card-info">
                 <h3>${item.title}</h3>
                 <p class="genre">${item.type}</p>
@@ -90,16 +212,20 @@ function renderAllSections(filterText = "") {
     renderSection("disney", "grid-disney", filterText);
 }
 
-// Search bar filters content across all sections in real-time
+// Search handler
 function handleSearch() {
     const query = document.getElementById("searchInput").value;
     renderAllSections(query);
 }
 
 // Video Player Modal
-function openPlayer(title) {
+function openPlayer(title, videoUrl) {
     document.getElementById("playerTitle").innerText = title;
-    document.getElementById("videoPlayer").src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
+    
+    // Append autoplay parameter
+    const autoplayUrl = videoUrl.includes("?") ? `${videoUrl}&autoplay=1` : `${videoUrl}?autoplay=1`;
+    document.getElementById("videoPlayer").src = autoplayUrl;
+    
     document.getElementById("videoModal").style.display = "flex";
 }
 
