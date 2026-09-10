@@ -13,7 +13,7 @@
     <header class="navbar">
         <div class="logo">Child<span>hood</span></div>
         <div class="search-box">
-            <input type="text" id="searchInput" placeholder="Search cartoon..." onkeyup="filterCartoons()">
+            <input type="text" id="searchInput" placeholder="Search cartoon or type..." onkeyup="filterCartoons()">
         </div>
     </header>
 
@@ -36,13 +36,23 @@
         </div>
     </div>
 
-    <!-- Cartoon Gallery Horizontal Slider -->
+    <!-- Main Gallery Section -->
     <main class="container">
-        <h2>Popular Cartoons of All Time</h2>
+        <!-- Channel Filter Tabs -->
+        <div class="channel-tabs">
+            <button class="tab-btn active" onclick="filterByChannel('All', this)">Popular Cartoons of All Time</button>
+            <button class="tab-btn" onclick="filterByChannel('Cartoon Network', this)">Cartoon Network</button>
+            <button class="tab-btn" onclick="filterByChannel('Nickelodeon', this)">Nickelodeon</button>
+            <button class="tab-btn" onclick="filterByChannel('Disney', this)">Disney</button>
+        </div>
+
+        <h2 id="sectionTitle">Popular Cartoons of All Time</h2>
+
+        <!-- Horizontal Slider -->
         <div class="slider-wrapper">
             <button class="slider-btn left-btn" onclick="slideLeft()">&#10094;</button>
             <div class="card-slider" id="cartoonGrid">
-                <!-- Cards will be generated via JavaScript -->
+                <!-- Cards generated via JavaScript -->
             </div>
             <button class="slider-btn right-btn" onclick="slideRight()">&#10095;</button>
         </div>
