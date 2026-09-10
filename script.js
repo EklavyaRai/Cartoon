@@ -4,67 +4,67 @@ const cartoonData = {
             title: "Doraemon", 
             type: "Sci-Fi Comedy", 
             channel: "Disney (Hungama TV)", 
-            thumbnail: "https://i.postimg.cc/m2S4JbZ8/doraemon.jpg",
-            videoUrl: "https://www.youtube.com/embed/5U2q_e3S9bE"
+            thumbnail: "https://i.pinimg.com/736x/3b/7d/19/3b7d194a719a6248430ba4dd62c5f5a7.jpg,
+            videoUrl: "https://www.youtube-nocookie.com/embed/uVu-D2rC-Lg?playlist=uVu-D2rC-Lg&autoplay=1&iv_load_policy=3&loop=1&start="
         },
         { 
             title: "Tom and Jerry", 
             type: "Slapstick Comedy", 
             channel: "Cartoon Network", 
-            thumbnail: "https://i.postimg.cc/9f5Gq3Vn/tom-and-jerry.jpg",
+            thumbnail: "https://i.pinimg.com/736x/30/4f/7e/304f7e6c2594371e06bdd5b20c30bf04.jpg",
             videoUrl: "https://www.youtube.com/embed/t0Q2otsqC4I"
         },
         { 
             title: "Shinchan", 
             type: "Slice of Life / Comedy", 
             channel: "Disney (Hungama TV)", 
-            thumbnail: "https://i.postimg.cc/8P2L0kYh/shinchan.jpg",
+            thumbnail: "https://i.pinimg.com/736x/0a/5f/07/0a5f073bd75fece31a6e68442f505fc5.jpg",
             videoUrl: "https://www.youtube.com/embed/8vR4S3z_JdE"
         },
         { 
             title: "Ben 10 (Original)", 
             type: "Sci-Fi / Action", 
             channel: "Cartoon Network", 
-            thumbnail: "https://i.postimg.cc/L8WkS89x/ben10.jpg",
+            thumbnail: "https://i.pinimg.com/1200x/38/c4/90/38c4907765c86a29a0c7813f8e4cd646.jpg",
             videoUrl: "https://www.youtube.com/embed/sA_N3aI6oCo"
         },
         { 
             title: "Pokémon", 
             type: "Anime / Fantasy", 
             channel: "Cartoon Network / Disney", 
-            thumbnail: "https://i.postimg.cc/Kz4Y6kXp/pokemon.jpg",
+            thumbnail: "https://i.pinimg.com/736x/35/04/44/350444c2abb255ffaf7e254d463124fa.jpg",
             videoUrl: "https://www.youtube.com/embed/uBYORdr_TY8"
         },
         { 
             title: "SpongeBob SquarePants", 
             type: "Surreal Comedy", 
             channel: "Nickelodeon", 
-            thumbnail: "https://i.postimg.cc/J0bZ1xKp/spongebob.jpg",
+            thumbnail: "https://i.pinimg.com/1200x/15/28/31/1528315696535196b07d7bcde8c1eed4.jpg",
             videoUrl: "https://www.youtube.com/embed/r9L4AseD-aA"
         },
         { 
             title: "Phineas and Ferb", 
             type: "Musical / Sci-Fi", 
             channel: "Disney Channel", 
-            thumbnail: "https://i.postimg.cc/26L135V1/phineas.jpg",
+            thumbnail: "https://i.pinimg.com/1200x/31/8f/09/318f09c1431bf7ad9a758c0442a4f24c.jpg",
             videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg"
         },
         { 
             title: "Dragon Ball Z", 
             type: "Anime / Action", 
             channel: "Cartoon Network", 
-            thumbnail: "https://i.postimg.cc/2yX8dMTh/dbz.jpg",
+            thumbnail: "https://i.pinimg.com/736x/74/79/8b/74798b82e4e8b085eefd60c375f039e0.jpg",
             videoUrl: "https://www.youtube.com/embed/2M-yKvdI_I8"
         }
     ],
     "cartoon-network": [
         // Pre-2000 Classics
-        { title: "Tom and Jerry", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/9f5Gq3Vn/tom-and-jerry.jpg", videoUrl: "https://www.youtube.com/embed/t0Q2otsqC4I" },
-        { title: "Looney Tunes / Baby Looney Tunes", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/mkgN1XW9/looney-tunes.jpg", videoUrl: "https://www.youtube.com/embed/fT4l052R34g" },
-        { title: "The Flintstones", type: "Sitcom / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/VvCkxK05/flintstones.jpg", videoUrl: "https://www.youtube.com/embed/2sPh8vI541E" },
-        { title: "The Jetsons", type: "Sci-Fi / Sitcom Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/m2Rk43W6/jetsons.jpg", videoUrl: "https://www.youtube.com/embed/Fyy_1Lthp0s" },
-        { title: "Scooby-Doo (Where Are You! / What's New)", type: "Mystery / Comedy / Mild Horror", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/90X1D7L6/scooby-doo.jpg", videoUrl: "https://www.youtube.com/embed/hTq6nwO4oJU" },
-        { title: "Dexter’s Laboratory", type: "Sci-Fi / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/9FLdYJ5V/dexter.jpg", videoUrl: "https://www.youtube.com/embed/2XQd70M3p9E" },
+        { title: "Tom and Jerry", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/30/4f/7e/304f7e6c2594371e06bdd5b20c30bf04.jpg", videoUrl: "https://www.youtube.com/embed/t0Q2otsqC4I" },
+        { title: "Looney Tunes / Baby Looney Tunes", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/65/61/03/65610312b411ef9166fb5463440f2906.jpg", videoUrl: "https://www.youtube.com/embed/fT4l052R34g" },
+        { title: "The Flintstones", type: "Sitcom / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/97/a8/f3/97a8f304b62dd2a4f4971eedc45dadc1.jpg", videoUrl: "https://www.youtube.com/embed/2sPh8vI541E" },
+        { title: "The Jetsons", type: "Sci-Fi / Sitcom Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/c2/bf/93/c2bf939e518398d6d23f608a315e861d.jpg", videoUrl: "https://www.youtube.com/embed/Fyy_1Lthp0s" },
+        { title: "Scooby-Doo (Where Are You! / What's New)", type: "Mystery / Comedy / Mild Horror", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/bc/b2/7a/bcb27a110104460a39ffe07b634b54a5.jpg", videoUrl: "https://www.youtube.com/embed/hTq6nwO4oJU" },
+        { title: "Dexter’s Laboratory", type: "Sci-Fi / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/45/31/1d/45311d19ef82a7a6b3b0983cf27b901e.jpg", videoUrl: "https://www.youtube.com/embed/2XQd70M3p9E" },
         { title: "The Powerpuff Girls (Original)", type: "Superhero / Action / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/3RpxCsc3/powerpuff-girls.jpg", videoUrl: "https://www.youtube.com/embed/4mmCMUPCNgE" },
         { title: "Johnny Bravo", type: "Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/L4hQ6fG9/johnny-bravo.jpg", videoUrl: "https://www.youtube.com/embed/exe0IEBNE_0" },
         { title: "Courage the Cowardly Dog", type: "Horror / Surreal Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/Fs5342C4/courage.jpg", videoUrl: "https://www.youtube.com/embed/3aG_oKqD-yA" },
@@ -118,12 +118,12 @@ const cartoonData = {
     ],
     nickelodeon: [
         // Pre-2000 Classics
-        { title: "SpongeBob SquarePants (1999–present)", type: "Slapstick / Surreal Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/J0bZ1xKp/spongebob.jpg", videoUrl: "https://www.youtube.com/embed/r9L4AseD-aA" },
-        { title: "Rugrats", type: "Slice of Life / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/P5Lp9KqY/rugrats.jpg", videoUrl: "https://www.youtube.com/embed/k8K2d4P3yE0" },
-        { title: "Hey Arnold!", type: "Slice of Life / Drama / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/KjhGkbh4/hey-arnold.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
-        { title: "The Ren & Stimpy Show", type: "Surreal / Gross-out Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/Bvt8zR9K/ren-stimpy.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
-        { title: "Rocko's Modern Life", type: "Satirical / Surreal Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/kX47mNsN/rocko.jpg", videoUrl: "https://www.youtube.com/embed/k8K2d4P3yE0" },
-        { title: "Doug", type: "Coming-of-Age / Slice of Life", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/26L1m14M/doug.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
+        { title: "SpongeBob SquarePants (1999–present)", type: "Slapstick / Surreal Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/15/28/31/1528315696535196b07d7bcde8c1eed4.jpg", videoUrl: "https://www.youtube.com/embed/r9L4AseD-aA" },
+        { title: "Rugrats", type: "Slice of Life / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/236x/c7/07/ae/c707ae776b8d37db4ca67fd9807b9ae1.jpg", videoUrl: "https://www.youtube.com/embed/k8K2d4P3yE0" },
+        { title: "Hey Arnold!", type: "Slice of Life / Drama / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/5e/52/4e/5e524e5d22398cf2589a2c72ca8341f7.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
+        { title: "The Ren & Stimpy Show", type: "Surreal / Gross-out Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/37/c1/c3/37c1c3ab702902305d5016a683c4c73e.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
+        { title: "Rocko's Modern Life", type: "Satirical / Surreal Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/df/a0/c3/dfa0c32b74775e87dbfbd6f61ba85f20.jpg", videoUrl: "https://www.youtube.com/embed/k8K2d4P3yE0" },
+        { title: "Doug", type: "Coming-of-Age / Slice of Life", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/10/e5/12/10e512fda1a137eb073af065b93d46cf.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
         { title: "CatDog", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/YqM8T8n1/catdog.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
         { title: "The Angry Beavers", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/Pq0n2qJm/angry-beavers.jpg", videoUrl: "https://www.youtube.com/embed/k8K2d4P3yE0" },
         { title: "The Wild Thornberrys", type: "Adventure / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/MGF7v5Pz/wild-thornberrys.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
@@ -168,12 +168,12 @@ const cartoonData = {
     ],
     disney: [
         // Pre-2000 Classics
-        { title: "DuckTales (Original 1987)", type: "Adventure / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/c4W28vQ2/ducktales.jpg", videoUrl: "https://www.youtube.com/embed/gP0Neif7Y4E" },
-        { title: "Chip 'n Dale: Rescue Rangers", type: "Mystery / Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/90X1D7L6/chip-n-dale.jpg", videoUrl: "https://www.youtube.com/embed/hTq6nwO4oJU" },
-        { title: "TaleSpin", type: "Action / Aviation Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/c4W28vQ2/talespin.jpg", videoUrl: "https://www.youtube.com/embed/gP0Neif7Y4E" },
-        { title: "Darkwing Duck", type: "Superhero / Action-Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/3RpxCsc3/darkwing-duck.jpg", videoUrl: "https://www.youtube.com/embed/4mmCMUPCNgE" },
-        { title: "Gargoyles", type: "Dark Fantasy / Action / Drama", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/c4W28vQ2/gargoyles.jpg", videoUrl: "https://www.youtube.com/embed/p1A4c14k_r4" },
-        { title: "Goof Troop", type: "Family / Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/6qS3sV0g/goof-troop.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" },
+        { title: "DuckTales (Original 1987)", type: "Adventure / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/27/aa/1b/27aa1b13112fc975d23a3d9e87c9ec67.jpg", videoUrl: "https://www.youtube.com/embed/gP0Neif7Y4E" },
+        { title: "Chip 'n Dale: Rescue Rangers", type: "Mystery / Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/13/11/86/131186e0e5087a0d3a8927388f920f97.jpg", videoUrl: "https://www.youtube.com/embed/hTq6nwO4oJU" },
+        { title: "TaleSpin", type: "Action / Aviation Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/b9/37/e7/b937e7d59940abdbe2ed017b3c9c2ca8.jpg", videoUrl: "https://www.youtube.com/embed/gP0Neif7Y4E" },
+        { title: "Darkwing Duck", type: "Superhero / Action-Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/e3/ac/20/e3ac2059421b0da94c2a5f967bdbefa2.jpg", videoUrl: "https://www.youtube.com/embed/4mmCMUPCNgE" },
+        { title: "Gargoyles", type: "Dark Fantasy / Action / Drama", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/83/3d/8d/833d8d65396c843ef002e119d68863f2.jpg", videoUrl: "https://www.youtube.com/embed/p1A4c14k_r4" },
+        { title: "Goof Troop", type: "Family / Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/f9/4f/60/f94f6029866bc747fad700f736d91549.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" },
         { title: "Aladdin: The Animated Series", type: "Fantasy / Action / Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/c4W28vQ2/aladdin.jpg", videoUrl: "https://www.youtube.com/embed/gP0Neif7Y4E" },
         { title: "The Little Mermaid", type: "Fantasy / Musical / Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/26L135V1/little-mermaid.jpg", videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg" },
         { title: "Timon & Pumbaa", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/L4hQ6fG9/timon-pumbaa.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
