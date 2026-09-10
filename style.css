@@ -86,11 +86,32 @@ body {
     color: #f8fafc;
 }
 
-/* Cartoon Card Grid */
+/* Horizontal Scrolling Container */
 .cartoon-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    display: flex;
+    overflow-x: auto;
     gap: 1.5rem;
+    padding-bottom: 1rem;
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar Styling */
+.cartoon-grid::-webkit-scrollbar {
+    height: 8px;
+}
+
+.cartoon-grid::-webkit-scrollbar-track {
+    background: #0f172a;
+    border-radius: 10px;
+}
+
+.cartoon-grid::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 10px;
+}
+
+.cartoon-grid::-webkit-scrollbar-thumb:hover {
+    background: #38bdf8;
 }
 
 .card {
@@ -102,6 +123,8 @@ body {
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     display: flex;
     flex-direction: column;
+    flex: 0 0 220px;
+    width: 220px;
 }
 
 .card:hover {
@@ -185,7 +208,7 @@ body {
 .no-results {
     color: #94a3b8;
     font-size: 0.95rem;
-    grid-column: 1 / -1;
+    width: 100%;
 }
 
 /* Video Modal */
