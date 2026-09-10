@@ -3,8 +3,8 @@ const cartoons = [
     {
         title: "Tom & Jerry",
         channel: "Cartoon Network / POGO",
-        thumbnail: "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=400&auto=format&fit=crop",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        thumbnail: "https://i.pinimg.com/736x/b3/58/f0/b358f0520d00e199e967203478dbcd41.jpg",
+        videoUrl: "https://youtu.be/t0Q2otsqC4I?si=EMTvcxitw7V8kbIp"
     },
     {
         title: "SpongeBob SquarePants",
