@@ -4,56 +4,56 @@ const cartoonData = {
             title: "Doraemon", 
             type: "Sci-Fi Comedy", 
             channel: "Disney (Hungama TV)", 
-            thumbnail: "https://i.postimg.cc/m2S4JbZ8/doraemon.jpg",
+            thumbnail: "https://i.pinimg.com/736x/3b/7d/19/3b7d194a719a6248430ba4dd62c5f5a7.jpg",
             videoUrl: "https://www.youtube.com/embed/5U2q_e3S9bE"
         },
         { 
             title: "Tom and Jerry", 
             type: "Slapstick Comedy", 
             channel: "Cartoon Network", 
-            thumbnail: "https://i.postimg.cc/9f5Gq3Vn/tom-and-jerry.jpg",
+            thumbnail: "https://i.pinimg.com/736x/30/4f/7e/304f7e6c2594371e06bdd5b20c30bf04.jpg",
             videoUrl: "https://www.youtube.com/embed/t0Q2otsqC4I"
         },
         { 
             title: "Shinchan", 
             type: "Slice of Life / Comedy", 
             channel: "Disney (Hungama TV)", 
-            thumbnail: "https://i.postimg.cc/8P2L0kYh/shinchan.jpg",
+            thumbnail: "https://i.pinimg.com/736x/0a/5f/07/0a5f073bd75fece31a6e68442f505fc5.jpg",
             videoUrl: "https://www.youtube.com/embed/8vR4S3z_JdE"
         },
         { 
             title: "Ben 10 (Original)", 
             type: "Sci-Fi / Action", 
             channel: "Cartoon Network", 
-            thumbnail: "https://i.postimg.cc/L8WkS89x/ben10.jpg",
+            thumbnail: "https://i.pinimg.com/1200x/c2/74/c6/c274c6f102b8819d566ed66a8967d1bb.jpg",
             videoUrl: "https://www.youtube.com/embed/sA_N3aI6oCo"
         },
         { 
             title: "Pokémon", 
             type: "Anime / Fantasy", 
             channel: "Cartoon Network / Disney", 
-            thumbnail: "https://i.postimg.cc/Kz4Y6kXp/pokemon.jpg",
+            thumbnail: "https://i.pinimg.com/736x/6f/86/f0/6f86f02638796339f25c01c1e457dcfa.jpg",
             videoUrl: "https://www.youtube.com/embed/uBYORdr_TY8"
         },
         { 
             title: "SpongeBob SquarePants", 
             type: "Surreal Comedy", 
             channel: "Nickelodeon", 
-            thumbnail: "https://i.postimg.cc/J0bZ1xKp/spongebob.jpg",
+            thumbnail: "https://i.pinimg.com/1200x/15/28/31/1528315696535196b07d7bcde8c1eed4.jpg",
             videoUrl: "https://www.youtube.com/embed/r9L4AseD-aA"
         },
         { 
             title: "Phineas and Ferb", 
             type: "Musical / Sci-Fi", 
             channel: "Disney Channel", 
-            thumbnail: "https://i.pinimg.com/1200x/31/8f/09/318f09c1431bf7ad9a758c0442a4f24c.jpgS",
+            thumbnail: "https://i.pinimg.com/1200x/31/8f/09/318f09c1431bf7ad9a758c0442a4f24c.jpg",
             videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg"
         },
         { 
             title: "Dragon Ball Z", 
             type: "Anime / Action", 
             channel: "Cartoon Network", 
-            thumbnail: "https://i.postimg.cc/2yX8dMTh/dbz.jpg",
+            thumbnail: "https://i.pinimg.com/736x/74/79/8b/74798b82e4e8b085eefd60c375f039e0.jpg",
             videoUrl: "https://www.youtube.com/embed/2M-yKvdI_I8"
         }
     ],
