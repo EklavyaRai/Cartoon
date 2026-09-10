@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToonStream - Watch Cartoons Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="logo">Toon<span>Stream</span></div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search cartoon..." onkeyup="filterCartoons()">
+        </div>
+    </header>
+
+    <!-- Main Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Unlimited Cartoons & Animated Shows</h1>
+            <p>Watch your favorite animated classics and modern shows anywhere, anytime.</p>
+        </div>
+    </section>
+
+    <!-- Video Modal Player -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closePlayer()">&times;</span>
+            <h2 id="playerTitle">Now Playing</h2>
+            <div class="video-container">
+                <iframe id="videoPlayer" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cartoon Gallery Grid -->
+    <main class="container">
+        <h2>Popular Shows</h2>
+        <div class="card-grid" id="cartoonGrid">
+            <!-- Cards will be generated via JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ToonStream. Web Concept Design.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
