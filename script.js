@@ -4,7 +4,7 @@ const cartoonData = {
             title: "Doraemon", 
             type: "Sci-Fi Comedy", 
             channel: "Disney (Hungama TV)", 
-            thumbnail: "https://i.pinimg.com/736x/3b/7d/19/3b7d194a719a6248430ba4dd62c5f5a7.jpg,
+            thumbnail: "https://i.pinimg.com/736x/3b/7d/19/3b7d194a719a6248430ba4dd62c5f5a7.jpg",
             videoUrl: "https://www.youtube-nocookie.com/embed/uVu-D2rC-Lg?playlist=uVu-D2rC-Lg&autoplay=1&iv_load_policy=3&loop=1&start="
         },
         { 
