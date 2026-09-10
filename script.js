@@ -65,7 +65,6 @@ const cartoonData = {
         }
     ],
     "cartoon-network": [
-        // Pre-2000 Classics
         { title: "Tom and Jerry", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/30/4f/7e/304f7e6c2594371e06bdd5b20c30bf04.jpg", videoUrl: "https://www.youtube.com/embed/t0Q2otsqC4I" },
         { title: "Looney Tunes / Baby Looney Tunes", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/65/61/03/65610312b411ef9166fb5463440f2906.jpg", videoUrl: "https://youtu.be/U2oliAFLDwU?si=J3K7GOZsK1YE9L6F" },
         { title: "The Flintstones", type: "Sitcom / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/97/a8/f3/97a8f304b62dd2a4f4971eedc45dadc1.jpg", videoUrl: "https://youtu.be/Y5aY2NKTyE4?si=V58Vm_MJ4_clDTg9" },
@@ -82,8 +81,6 @@ const cartoonData = {
         { title: "Popeye the Sailor", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/0jH1K1vM/popeye.jpg", videoUrl: "https://www.youtube.com/embed/d3O7xPvhXzU" },
         { title: "Centurions", type: "Sci-Fi / Action", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/RVTGzD1q/centurions.jpg", videoUrl: "https://www.youtube.com/embed/szC-sR1f25M" },
         { title: "Captain Planet and the Planeteers", type: "Action / Superhero / Educational", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/c4W28vQ2/captain-planet.jpg", videoUrl: "https://www.youtube.com/embed/ogMBLRHJYXU" },
-
-        // 2000–2010 Golden Era
         { title: "Ben 10 (Original, Alien Force, Ultimate Alien)", type: "Sci-Fi / Superhero / Action", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/L8WkS89x/ben10.jpg", videoUrl: "https://www.youtube.com/embed/sA_N3aI6oCo" },
         { title: "Samurai Jack", type: "Action / Martial Arts / Sci-Fi", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/SsdqXvVn/samurai-jack.jpg", videoUrl: "https://www.youtube.com/embed/VSrv_n4tw7w" },
         { title: "Codename: Kids Next Door", type: "Action / Secret Agent / Comedy", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/hPByD1Z1/knd.jpg", videoUrl: "https://www.youtube.com/embed/5T8L3A8K_sE" },
@@ -99,8 +96,6 @@ const cartoonData = {
         { title: "My Gym Partner’s a Monkey", type: "School Comedy", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/kX47vJqD/gym-partner-monkey.jpg", videoUrl: "https://www.youtube.com/embed/M8C5C8k0rM4" },
         { title: "Generator Rex", type: "Sci-Fi / Action", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/3R9Xz6vM/generator-rex.jpg", videoUrl: "https://www.youtube.com/embed/0G6C_sW_Xp0" },
         { title: "Ben 10: Omniverse", type: "Sci-Fi / Superhero / Action-Comedy", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/N0c3qGsb/ben10-omniverse.jpg", videoUrl: "https://www.youtube.com/embed/3A8u2V9gK0M" },
-
-        // Toonami Block / Anime on CN
         { title: "Dragon Ball Z / Dragon Ball GT / Super", type: "Anime / Action / Martial Arts", era: "Toonami Block / Anime", thumbnail: "https://i.postimg.cc/2yX8dMTh/dbz.jpg", videoUrl: "https://www.youtube.com/embed/2M-yKvdI_I8" },
         { title: "Pokémon (Original Seasons)", type: "Anime / Fantasy / Adventure", era: "Toonami Block / Anime", thumbnail: "https://i.postimg.cc/Kz4Y6kXp/pokemon.jpg", videoUrl: "https://www.youtube.com/embed/uBYORdr_TY8" },
         { title: "Beyblade (Original / Metal Fusion)", type: "Anime / Action / Sports", era: "Toonami Block / Anime", thumbnail: "https://i.postimg.cc/j5P4kRvy/beyblade.jpg", videoUrl: "https://www.youtube.com/embed/nS4l8eR0L0I" },
@@ -108,8 +103,6 @@ const cartoonData = {
         { title: "Cardcaptors", type: "Anime / Magical Girl / Fantasy", era: "Toonami Block / Anime", thumbnail: "https://i.postimg.cc/T3RkNzCg/cardcaptors.jpg", videoUrl: "https://www.youtube.com/embed/8K74I_H1A8Y" },
         { title: "Transformers: Armada / Cybertron", type: "Anime / Mecha / Sci-Fi", era: "Toonami Block / Anime", thumbnail: "https://i.postimg.cc/44C5k0hK/transformers-armada.jpg", videoUrl: "https://www.youtube.com/embed/28K7_3kG_mE" },
         { title: "Digimon", type: "Anime / Fantasy / Sci-Fi", era: "Toonami Block / Anime", thumbnail: "https://i.postimg.cc/qM6XkV70/digimon.jpg", videoUrl: "https://www.youtube.com/embed/lA_S3gM209g" },
-
-        // 2010s–Present
         { title: "Adventure Time", type: "Fantasy / Adventure / Surreal Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/4ydxptS9/adventure-time.jpg", videoUrl: "https://www.youtube.com/embed/bhM_I0S3k2k" },
         { title: "Regular Show", type: "Surreal Comedy / Sci-Fi", era: "2010s–Present", thumbnail: "https://i.postimg.cc/pLsK3KqZ/regular-show.jpg", videoUrl: "https://www.youtube.com/embed/y894sR_0X8s" },
         { title: "The Amazing World of Gumball", type: "Surreal / Slapstick Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/7Y0hS8zG/gumball.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" },
@@ -124,7 +117,6 @@ const cartoonData = {
         { title: "We Baby Bears", type: "Fantasy / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/85F1qPnk/we-bare-bears.jpg", videoUrl: "https://www.youtube.com/embed/1kS3Z2K8M9s" }
     ],
     nickelodeon: [
-        // Pre-2000 Classics
         { title: "SpongeBob SquarePants (1999–present)", type: "Slapstick / Surreal Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/15/28/31/1528315696535196b07d7bcde8c1eed4.jpg", videoUrl: "https://youtu.be/07QPKPgBL5Y?si=KoNGGClBsQCJviZv" },
         { title: "Rugrats", type: "Slice of Life / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/ce/55/d0/ce55d0c03679abbe10c2747ded8ac13f.jpg", videoUrl: "https://youtu.be/nnS_BTG3hmI?si=AOZHJ7tXr-QxnrJC" },
         { title: "Hey Arnold!", type: "Slice of Life / Drama / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/5e/52/4e/5e524e5d22398cf2589a2c72ca8341f7.jpg", videoUrl: "https://youtu.be/uT63MnVrxJg?si=gx-2O1jLqGz1LPCq" },
@@ -136,8 +128,6 @@ const cartoonData = {
         { title: "The Wild Thornberrys", type: "Adventure / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/MGF7v5Pz/wild-thornberrys.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
         { title: "Rocket Power", type: "Sports / Slice of Life", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/3Rpxv2Jk/rocket-power.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
         { title: "KaBlam!", type: "Sketch Comedy / Variety", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/kG874cPy/kablam.jpg", videoUrl: "https://www.youtube.com/embed/k8K2d4P3yE0" },
-
-        // 2000–2010 Golden Era
         { title: "Avatar: The Last Airbender", type: "Action / High Fantasy / Martial Arts", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/kG7T01Yg/avatar.jpg", videoUrl: "https://www.youtube.com/embed/d1EnW4kn1kg" },
         { title: "The Fairly OddParents", type: "Fantasy / Slapstick Comedy", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/J0bZ3qKk/fairly-oddparents.jpg", videoUrl: "https://www.youtube.com/embed/K9qN95F5q14" },
         { title: "Danny Phantom", type: "Superhero / Sci-Fi / Action", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/RVTGzD1q/danny-phantom.jpg", videoUrl: "https://www.youtube.com/embed/74zJkEAn6Yk" },
@@ -150,8 +140,6 @@ const cartoonData = {
         { title: "Back at the Barnyard", type: "Surreal / Slapstick Comedy", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/s2x0fMvL/barnyard.jpg", videoUrl: "https://www.youtube.com/embed/M8C5C8k0rM4" },
         { title: "The Penguins of Madagascar", type: "Action / Comedy", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/R01gM5Nk/penguins-madagascar.jpg", videoUrl: "https://www.youtube.com/embed/1kS3Z2K8M9s" },
         { title: "Teenage Mutant Ninja Turtles (2003 / 2012)", type: "Action / Superhero / Sci-Fi", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/2yX8vQ3B/tmnt.jpg", videoUrl: "https://www.youtube.com/embed/yP23g3B9z74" },
-
-        // Preschool (Nick Jr.)
         { title: "Blue's Clues", type: "Interactive / Educational", era: "Preschool (Nick Jr.)", thumbnail: "https://i.postimg.cc/26L135V1/blues-clues.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
         { title: "Dora the Explorer", type: "Interactive / Adventure / Educational", era: "Preschool (Nick Jr.)", thumbnail: "https://i.postimg.cc/Kz4Y8kM2/dora.jpg", videoUrl: "https://www.youtube.com/embed/bhM_I0S3k2k" },
         { title: "Go, Diego, Go!", type: "Adventure / Educational", era: "Preschool (Nick Jr.)", thumbnail: "https://i.postimg.cc/L8WkS89x/diego.jpg", videoUrl: "https://www.youtube.com/embed/bhM_I0S3k2k" },
@@ -161,8 +149,6 @@ const cartoonData = {
         { title: "Bubble Guppies", type: "Musical / Educational", era: "Preschool (Nick Jr.)", thumbnail: "https://i.postimg.cc/26L135V1/bubble-guppies.jpg", videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg" },
         { title: "PAW Patrol", type: "Action / Rescue / Educational", era: "Preschool (Nick Jr.)", thumbnail: "https://i.postimg.cc/R01gM5Nk/paw-patrol.jpg", videoUrl: "https://www.youtube.com/embed/1kS3Z2K8M9s" },
         { title: "Blaze and the Monster Machines", type: "STEM / Racing / Educational", era: "Preschool (Nick Jr.)", thumbnail: "https://i.postimg.cc/mD8T7P1M/blaze.jpg", videoUrl: "https://www.youtube.com/embed/0x9uX0m_gC4" },
-
-        // 2010s–Present
         { title: "The Legend of Korra", type: "Action / High Fantasy / Steampunk", era: "2010s–Present", thumbnail: "https://i.postimg.cc/kG7T01Yg/legend-of-korra.jpg", videoUrl: "https://www.youtube.com/embed/d1EnW4kn1kg" },
         { title: "The Loud House", type: "Family / Slice of Life / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/7Y0hS8zG/loud-house.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" },
         { title: "The Casagrandes", type: "Family / Slice of Life / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/7Y0hS8zG/casagrandes.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" },
@@ -174,7 +160,6 @@ const cartoonData = {
         { title: "Transformers: EarthSpark", type: "Sci-Fi / Action", era: "2010s–Present", thumbnail: "https://i.postimg.cc/44C5k0hK/earthspark.jpg", videoUrl: "https://www.youtube.com/embed/28K7_3kG_mE" }
     ],
     disney: [
-        // Pre-2000 Classics
         { title: "DuckTales (Original 1987)", type: "Adventure / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/3c/31/f0/3c31f0a9ae32087ebe40ce21be506910.jpg", videoUrl: "https://youtu.be/6Apo2Ol4pMI?si=LeyTeTgNFZLwWnqS" },
         { title: "Chip 'n Dale: Rescue Rangers", type: "Mystery / Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/9c/2e/a3/9c2ea33e1990f950980918e7b748d5af.jpg", videoUrl: "https://youtu.be/Uh6Gu3sVoL0?si=KTLlbcn9p1LQxO1l" },
         { title: "TaleSpin", type: "Action / Aviation Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/b9/37/e7/b937e7d59940abdbe2ed017b3c9c2ca8.jpg", videoUrl: "https://youtu.be/-u7H828HUsc?si=sH0jmvuh1GOWt4bV" },
@@ -187,8 +172,6 @@ const cartoonData = {
         { title: "Recess", type: "School Comedy / Slice of Life", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/KjhGkbh4/recess.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
         { title: "Pepper Ann", type: "Coming-of-Age / Slice of Life", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/26L1m14M/pepper-ann.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
         { title: "Hercules: The Animated Series", type: "Mythology / Action-Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/c4W28vQ2/hercules.jpg", videoUrl: "https://www.youtube.com/embed/gP0Neif7Y4E" },
-
-        // 2000–2010 Era
         { title: "Phineas and Ferb", type: "Musical / Sci-Fi / Slapstick Comedy", era: "2000–2010 Era", thumbnail: "https://i.postimg.cc/26L135V1/phineas.jpg", videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg" },
         { title: "Kim Possible", type: "Action / Secret Agent / Teen Comedy", era: "2000–2010 Era", thumbnail: "https://i.postimg.cc/3RpxCsc3/kim-possible.jpg", videoUrl: "https://www.youtube.com/embed/h_D3VFfhvs4" },
         { title: "American Dragon: Jake Long", type: "Urban Fantasy / Superhero", era: "2000–2010 Era", thumbnail: "https://i.postimg.cc/pT3Y09kZ/jake-long.jpg", videoUrl: "https://www.youtube.com/embed/yP23g3B9z74" },
@@ -205,8 +188,6 @@ const cartoonData = {
         { title: "Monster Buster Club", type: "Sci-Fi / Action / Comedy", era: "2000–2010 Era", thumbnail: "https://i.postimg.cc/90p50bHq/mbc.jpg", videoUrl: "https://www.youtube.com/embed/V6S_x8L3v0M" },
         { title: "Get Ed", type: "Sci-Fi / Action", era: "2000–2010 Era", thumbnail: "https://i.postimg.cc/3R9Xz6vM/get-ed.jpg", videoUrl: "https://www.youtube.com/embed/0G6C_sW_Xp0" },
         { title: "Pucca", type: "Action / Slapstick Comedy / Romance", era: "2000–2010 Era", thumbnail: "https://i.postimg.cc/L4hQ6fG9/pucca.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
-
-        // 2010s–Present
         { title: "Gravity Falls", type: "Mystery / Supernatural / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/90X1D7L6/gravity-falls.jpg", videoUrl: "https://www.youtube.com/embed/tctX7B9UUMQ" },
         { title: "The Owl House", type: "Dark Fantasy / Horror-Comedy / Adventure", era: "2010s–Present", thumbnail: "https://i.postimg.cc/Y2R9J5gK/owl-house.jpg", videoUrl: "https://www.youtube.com/embed/G1E98XyH_A8" },
         { title: "Amphibia", type: "Isekai Fantasy / Adventure / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/Y2R9J5gK/amphibia.jpg", videoUrl: "https://www.youtube.com/embed/bhM_I0S3k2k" },
@@ -221,3 +202,107 @@ const cartoonData = {
         { title: "Kiff", type: "Musical / Slice of Life / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/6qS3sV0g/kiff.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" }
     ]
 };
+
+// --- RENDER LOGIC ---
+
+// Helper function to convert standard YouTube links into embed URLs
+function formatVideoUrl(url) {
+    if (url.includes("youtu.be/")) {
+        const videoId = url.split("youtu.be/")[1].split("?")[0];
+        return `https://www.youtube.com/embed/${videoId}`;
+    }
+    return url;
+}
+
+// Function to generate card HTML
+function createCardHtml(item) {
+    const badgeText = item.channel || item.era || '';
+    const safeTitle = item.title.replace(/'/g, "\\'");
+    const embedUrl = formatVideoUrl(item.videoUrl);
+
+    return `
+        <div class="card" onclick="openPlayer('${safeTitle}', '${embedUrl}')">
+            <div class="card-img-wrapper">
+                <img src="${item.thumbnail}" alt="${item.title}" loading="lazy" onerror="this.src='https://via.placeholder.com/220x220?text=No+Image'">
+                <div class="play-overlay">
+                    <span>▶</span>
+                </div>
+            </div>
+            <div class="card-info">
+                <h3>${item.title}</h3>
+                <span class="genre">${item.type}</span>
+                ${badgeText ? `<span class="badge">${badgeText}</span>` : ''}
+            </div>
+        </div>
+    `;
+}
+
+// Function to populate all section grids
+function renderAllSections() {
+    const sections = ['popular', 'cartoon-network', 'nickelodeon', 'disney'];
+
+    sections.forEach(key => {
+        const gridElement = document.getElementById(`grid-${key}`);
+        if (gridElement && cartoonData[key]) {
+            gridElement.innerHTML = cartoonData[key].map(item => createCardHtml(item)).join('');
+        }
+    });
+}
+
+// --- SEARCH HANDLER ---
+
+function handleSearch() {
+    const query = document.getElementById('searchInput').value.toLowerCase().trim();
+    const sections = ['popular', 'cartoon-network', 'nickelodeon', 'disney'];
+
+    sections.forEach(key => {
+        const gridElement = document.getElementById(`grid-${key}`);
+        if (!gridElement || !cartoonData[key]) return;
+
+        const filtered = cartoonData[key].filter(item => 
+            item.title.toLowerCase().includes(query) || 
+            item.type.toLowerCase().includes(query)
+        );
+
+        if (filtered.length > 0) {
+            gridElement.innerHTML = filtered.map(item => createCardHtml(item)).join('');
+        } else {
+            gridElement.innerHTML = `<p class="no-results">No shows found matching "${query}"</p>`;
+        }
+    });
+}
+
+// --- MODAL PLAYER CONTROLS ---
+
+function openPlayer(title, videoUrl) {
+    const modal = document.getElementById('videoModal');
+    const playerTitle = document.getElementById('playerTitle');
+    const videoPlayer = document.getElementById('videoPlayer');
+
+    if (modal && playerTitle && videoPlayer) {
+        playerTitle.innerText = title;
+        videoPlayer.src = formatVideoUrl(videoUrl);
+        modal.style.display = 'flex';
+    }
+}
+
+function closePlayer() {
+    const modal = document.getElementById('videoModal');
+    const videoPlayer = document.getElementById('videoPlayer');
+
+    if (modal && videoPlayer) {
+        modal.style.display = 'none';
+        videoPlayer.src = '';
+    }
+}
+
+// Close player modal when clicking outside modal content
+window.onclick = function(event) {
+    const modal = document.getElementById('videoModal');
+    if (event.target === modal) {
+        closePlayer();
+    }
+};
+
+// Automatically render cards when the DOM content loads
+document.addEventListener('DOMContentLoaded', renderAllSections);
