@@ -3,29 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Childhood - Watch Cartoons Online</title>
+    <title>Childhood - Cartoon Portal</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navigation Header -->
+    <!-- Header Navbar -->
     <header class="navbar">
         <div class="logo">Child<span>hood</span></div>
         <div class="search-box">
-            <input type="text" id="searchInput" placeholder="Search cartoon or type..." onkeyup="filterCartoons()">
+            <input type="text" id="searchInput" placeholder="Search cartoons or genres..." onkeyup="handleSearch()">
         </div>
     </header>
 
-    <!-- Main Hero Banner -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Unlimited Cartoons</h1>
-            <p>Watch your favorite animated classics and modern shows anywhere, anytime.</p>
-        </div>
-    </section>
+    <!-- Main Layout Container -->
+    <div class="main-layout">
+        <!-- Vertical Tab Navigation -->
+        <aside class="sidebar">
+            <button class="tab-btn active" onclick="switchTab(event, 'popular')">
+                <span>🔥</span> Popular Cartoons
+            </button>
+            <button class="tab-btn" onclick="switchTab(event, 'cartoon-network')">
+                <span>📺</span> Cartoon Network
+            </button>
+            <button class="tab-btn" onclick="switchTab(event, 'nickelodeon')">
+                <span>🍊</span> Nickelodeon
+            </button>
+            <button class="tab-btn" onclick="switchTab(event, 'disney')">
+                <span>🏰</span> Disney
+            </button>
+        </aside>
 
-    <!-- Video Modal Player -->
+        <!-- Dynamic Content Area -->
+        <section class="content-area">
+            <div id="tabTitle" class="section-title">Popular Cartoons of All Time</div>
+            <div class="cartoon-grid" id="cartoonGrid"></div>
+        </section>
+    </div>
+
+    <!-- Video Player Modal -->
     <div id="videoModal" class="modal">
         <div class="modal-content">
             <span class="close-btn" onclick="closePlayer()">&times;</span>
@@ -35,53 +52,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Main Content Section with Vertical Sections -->
-    <main class="container">
-        <!-- Section 1: Popular Cartoons of All Time -->
-        <section class="channel-section">
-            <h2>Popular Cartoons of All Time</h2>
-            <div class="slider-wrapper">
-                <button class="slider-btn left-btn" onclick="slideRow('popularGrid', -300)">&#10094;</button>
-                <div class="card-slider" id="popularGrid"></div>
-                <button class="slider-btn right-btn" onclick="slideRow('popularGrid', 300)">&#10095;</button>
-            </div>
-        </section>
-
-        <!-- Section 2: Cartoon Network -->
-        <section class="channel-section">
-            <h2>Cartoon Network</h2>
-            <div class="slider-wrapper">
-                <button class="slider-btn left-btn" onclick="slideRow('cnGrid', -300)">&#10094;</button>
-                <div class="card-slider" id="cnGrid"></div>
-                <button class="slider-btn right-btn" onclick="slideRow('cnGrid', 300)">&#10095;</button>
-            </div>
-        </section>
-
-        <!-- Section 3: Nickelodeon -->
-        <section class="channel-section">
-            <h2>Nickelodeon</h2>
-            <div class="slider-wrapper">
-                <button class="slider-btn left-btn" onclick="slideRow('nickGrid', -300)">&#10094;</button>
-                <div class="card-slider" id="nickGrid"></div>
-                <button class="slider-btn right-btn" onclick="slideRow('nickGrid', 300)">&#10095;</button>
-            </div>
-        </section>
-
-        <!-- Section 4: Disney -->
-        <section class="channel-section">
-            <h2>Disney</h2>
-            <div class="slider-wrapper">
-                <button class="slider-btn left-btn" onclick="slideRow('disneyGrid', -300)">&#10094;</button>
-                <div class="card-slider" id="disneyGrid"></div>
-                <button class="slider-btn right-btn" onclick="slideRow('disneyGrid', 300)">&#10095;</button>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Childhood. Web Concept Design.</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>
