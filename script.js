@@ -125,7 +125,7 @@ const cartoonData = {
     ],
     nickelodeon: [
         // Pre-2000 Classics
-        { title: "SpongeBob SquarePants (1999–present)", type: "Slapstick / Surreal Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/15/28/31/1528315696535196b07d7bcde8c1eed4.jpg"", videoUrl: "https://youtu.be/07QPKPgBL5Y?si=KoNGGClBsQCJviZv" },
+        { title: "SpongeBob SquarePants (1999–present)", type: "Slapstick / Surreal Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/15/28/31/1528315696535196b07d7bcde8c1eed4.jpg", videoUrl: "https://youtu.be/07QPKPgBL5Y?si=KoNGGClBsQCJviZv" },
         { title: "Rugrats", type: "Slice of Life / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/ce/55/d0/ce55d0c03679abbe10c2747ded8ac13f.jpg", videoUrl: "https://youtu.be/nnS_BTG3hmI?si=AOZHJ7tXr-QxnrJC" },
         { title: "Hey Arnold!", type: "Slice of Life / Drama / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/5e/52/4e/5e524e5d22398cf2589a2c72ca8341f7.jpg", videoUrl: "https://youtu.be/uT63MnVrxJg?si=gx-2O1jLqGz1LPCq" },
         { title: "The Ren & Stimpy Show", type: "Surreal / Gross-out Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/37/c1/c3/37c1c3ab702902305d5016a683c4c73e.jpg", videoUrl: "https://youtu.be/GCwK1spnyMU?si=c9cA_vCHQftQeQi4" },
@@ -210,7 +210,7 @@ const cartoonData = {
         { title: "Gravity Falls", type: "Mystery / Supernatural / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/90X1D7L6/gravity-falls.jpg", videoUrl: "https://www.youtube.com/embed/tctX7B9UUMQ" },
         { title: "The Owl House", type: "Dark Fantasy / Horror-Comedy / Adventure", era: "2010s–Present", thumbnail: "https://i.postimg.cc/Y2R9J5gK/owl-house.jpg", videoUrl: "https://www.youtube.com/embed/G1E98XyH_A8" },
         { title: "Amphibia", type: "Isekai Fantasy / Adventure / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/Y2R9J5gK/amphibia.jpg", videoUrl: "https://www.youtube.com/embed/bhM_I0S3k2k" },
-        { title: "Star vs. the Forces of Evil", type: "Magical / Fantasy / Action-Comedy", era: "2000–2010 Era", thumbnail: "https://i.postimg.cc/J0bZ3qKk/star-vs-evil.jpg", videoUrl: "https://www.youtube.com/embed/K9qN95F5q14" },
+        { title: "Star vs. the Forces of Evil", type: "Magical / Fantasy / Action-Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/J0bZ3qKk/star-vs-evil.jpg", videoUrl: "https://www.youtube.com/embed/K9qN95F5q14" },
         { title: "Wander Over Yonder", type: "Sci-Fi / Musical Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/26L135V1/wander.jpg", videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg" },
         { title: "DuckTales (2017 Reboot)", type: "Adventure / Action-Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/c4W28vQ2/ducktales.jpg", videoUrl: "https://www.youtube.com/embed/gP0Neif7Y4E" },
         { title: "Big Hero 6: The Series", type: "Superhero / Sci-Fi / Action", era: "2010s–Present", thumbnail: "https://i.postimg.cc/pT3Y09kZ/big-hero-6.jpg", videoUrl: "https://www.youtube.com/embed/yP23g3B9z74" },
@@ -218,91 +218,6 @@ const cartoonData = {
         { title: "Ghost and Molly McGee", type: "Supernatural / Musical Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/26L135V1/molly-mcgee.jpg", videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg" },
         { title: "Big City Greens", type: "Slice of Life / Slapstick Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/6qS3sV0g/big-city-greens.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" },
         { title: "Hamster & Gretel", type: "Superhero / Musical Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/26L135V1/hamster-gretel.jpg", videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg" },
-        { title: "Kiff", type: "Musical / Slice of Life / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/6qS3sV0g/kiff.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" },
-        { title: "Moon Girl and Devil Dinosaur", type: "Superhero / Sci-Fi / Action", era: "2010s–Present", thumbnail: "https://i.postimg.cc/pT3Y09kZ/moon-girl.jpg", videoUrl: "https://www.youtube.com/embed/yP23g3B9z74" }
+        { title: "Kiff", type: "Musical / Slice of Life / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/6qS3sV0g/kiff.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" }
     ]
 };
-
-// Render cards into a specific section grid
-function renderSection(categoryKey, containerId, filterText = "") {
-    const grid = document.getElementById(containerId);
-    if (!grid) return;
-    
-    grid.innerHTML = "";
-
-    const list = cartoonData[categoryKey] || [];
-    const filtered = list.filter(item => 
-        item.title.toLowerCase().includes(filterText.toLowerCase()) || 
-        item.type.toLowerCase().includes(filterText.toLowerCase()) ||
-        (item.era && item.era.toLowerCase().includes(filterText.toLowerCase()))
-    );
-
-    if (filtered.length === 0) {
-        grid.innerHTML = `<p class="no-results">No cartoons found matching your search.</p>`;
-        return;
-    }
-
-    filtered.forEach(item => {
-        const card = document.createElement("div");
-        card.className = "card";
-        card.onclick = () => openPlayer(item.title, item.videoUrl);
-
-        const imgSrc = item.thumbnail;
-
-        card.innerHTML = `
-            <div class="card-img-wrapper">
-                <img src="${imgSrc}" alt="${item.title}" loading="lazy">
-                <div class="play-overlay">
-                    <span>▶</span>
-                </div>
-            </div>
-            <div class="card-info">
-                <h3>${item.title}</h3>
-                <p class="genre">${item.type}</p>
-                <span class="badge">${item.era || item.channel}</span>
-            </div>
-        `;
-        grid.appendChild(card);
-    });
-}
-
-// Render all sections on load
-function renderAllSections(filterText = "") {
-    renderSection("popular", "grid-popular", filterText);
-    renderSection("cartoon-network", "grid-cartoon-network", filterText);
-    renderSection("nickelodeon", "grid-nickelodeon", filterText);
-    renderSection("disney", "grid-disney", filterText);
-}
-
-// Search handler
-function handleSearch() {
-    const query = document.getElementById("searchInput").value;
-    renderAllSections(query);
-}
-
-// Video Player Modal
-function openPlayer(title, videoUrl) {
-    const titleElement = document.getElementById("playerTitle");
-    const videoElement = document.getElementById("videoPlayer");
-    const modalElement = document.getElementById("videoModal");
-
-    if (titleElement) titleElement.innerText = title;
-    
-    if (videoElement) {
-        const autoplayUrl = videoUrl.includes("?") ? `${videoUrl}&autoplay=1` : `${videoUrl}?autoplay=1`;
-        videoElement.src = autoplayUrl;
-    }
-    
-    if (modalElement) modalElement.style.display = "flex";
-}
-
-function closePlayer() {
-    const videoElement = document.getElementById("videoPlayer");
-    const modalElement = document.getElementById("videoModal");
-
-    if (videoElement) videoElement.src = "";
-    if (modalElement) modalElement.style.display = "none";
-}
-
-// Initial render
-window.onload = () => renderAllSections();
