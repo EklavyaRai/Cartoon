@@ -262,3 +262,22 @@ body {
     height: 100%;
     border-radius: 8px;
 }
+/* Footer Styling */
+.footer {
+    background-color: #1e293b;
+    border-top: 1px solid #334155;
+    text-align: center;
+    padding: 1.5rem 5%;
+    margin-top: auto;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+.footer p {
+    margin: 0.2rem 0;
+}
+
+.footer-disclaimer {
+    font-size: 0.75rem;
+    color: #64748b;
+}
