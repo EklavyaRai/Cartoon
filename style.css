@@ -523,6 +523,16 @@ body {
     height: 100%;
     border-radius: 8px;
 }
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1.5rem 5%;
+    background-color: #1e293b;
+    border-top: 1px solid #334155;
+    color: #94a3b8;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
     border-radius: 8px;
 }
 /* Footer Styling */
