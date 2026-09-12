@@ -22,13 +22,6 @@ const cartoonData = {
             videoUrl: "https://www.youtube-nocookie.com/embed/5dlrOosqSb8?playlist=5dlrOosqSb8&autoplay=1&iv_load_policy=3&loop=1&start=1"
         },
         { 
-            title: "Ninja Hattori", 
-            type: "Comedy / Slice of Life / Martial Arts", 
-            channel: "Nickelodeon / Disney", 
-            thumbnail: "https://i.pinimg.com/736x/d5/6a/e3/d56ae300c79ed1a355529ce5c540782a.jpg",
-            videoUrl: "https://www.youtube-nocookie.com/embed/1RK1b8zGXPI?playlist=1RK1b8zGXPI&autoplay=1&iv_load_policy=3&loop=1&start=34"
-        },
-        { 
             title: "Ben 10 (Original)", 
             type: "Sci-Fi / Action", 
             channel: "Cartoon Network", 
@@ -57,13 +50,6 @@ const cartoonData = {
             videoUrl: "https://www.youtube-nocookie.com/embed/t-Q5PPMRCRE?playlist=t-Q5PPMRCRE&autoplay=1&iv_load_policy=3&loop=1&start="
         },
         { 
-            title: "Oggy and the Cockroaches", 
-            type: "Slapstick Comedy / Non-verbal", 
-            channel: "Cartoon Network", 
-            thumbnail: "https://i.pinimg.com/736x/dd/a7/67/dda7670d98e43c93d466bf234750542b.jpg",
-            videoUrl: "https://www.youtube-nocookie.com/embed/NqoZKOk6BTM?playlist=NqoZKOk6BTM&autoplay=1&iv_load_policy=3&loop=1&start="
-        },
-        { 
             title: "Dragon Ball Z", 
             type: "Anime / Action", 
             channel: "Cartoon Network", 
@@ -79,11 +65,11 @@ const cartoonData = {
         { title: "The Jetsons", type: "Sci-Fi / Sitcom Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/c2/bf/93/c2bf939e518398d6d23f608a315e861d.jpg", videoUrl: "https://www.youtube-nocookie.com/embed/9cJICMtMUg4?list=PLj3SGog2tiFPBp2Va9FzXT-DC_D1Z7mEV&autoplay=1&iv_load_policy=3&loop=1&start=" },
         { title: "Scooby-Doo (Where Are You! / What's New)", type: "Mystery / Comedy / Mild Horror", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/bc/b2/7a/bcb27a110104460a39ffe07b634b54a5.jpg", videoUrl: "https://www.youtube.com/embed/hTq6nwO4oJU" },
         { title: "Dexter’s Laboratory", type: "Sci-Fi / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/45/31/1d/45311d19ef82a7a6b3b0983cf27b901e.jpg", videoUrl: "https://www.youtube.com/embed/2XQd70M3p9E" },
-        { title: "The Powerpuff Girls (Original)", type: "Superhero / Action / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/b7/cc/af/b7ccafef7da495c85330b1e4be7dbdee.jpg", videoUrl: "https://www.youtube.com/embed/4mmCMUPCNgE" },
-        { title: "Johnny Bravo", type: "Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/96/ef/66/96ef66aca1703046dc7e4a684addd9a7.jpg", videoUrl: "https://www.youtube.com/embed/exe0IEBNE_0" },
-        { title: "Courage the Cowardly Dog", type: "Horror / Surreal Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/65/90/db/6590dbc9d92e37413c4a8827c21eea0f.jpg", videoUrl: "https://www.youtube.com/embed/3aG_oKqD-yA" },
-        { title: "Ed, Edd n Eddy", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/236x/b2/f9/d2/b2f9d2782bb452bb92473e2b5f7d0685.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
-        { title: "Cow and Chicken / I Am Weasel", type: "Surreal / Gross-out Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/e2/12/ff/e212ffae34f1ec9b1649cbe665e12e67.jpg", videoUrl: "https://www.youtube.com/embed/F41s-b3sV1A" },
+        { title: "The Powerpuff Girls (Original)", type: "Superhero / Action / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/3RpxCsc3/powerpuff-girls.jpg", videoUrl: "https://www.youtube.com/embed/4mmCMUPCNgE" },
+        { title: "Johnny Bravo", type: "Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/L4hQ6fG9/johnny-bravo.jpg", videoUrl: "https://www.youtube.com/embed/exe0IEBNE_0" },
+        { title: "Courage the Cowardly Dog", type: "Horror / Surreal Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/Fs5342C4/courage.jpg", videoUrl: "https://www.youtube.com/embed/3aG_oKqD-yA" },
+        { title: "Ed, Edd n Eddy", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/6pP3T9mB/ed-edd-eddy.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
+        { title: "Cow and Chicken / I Am Weasel", type: "Surreal / Gross-out Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/k47tV1tP/cow-and-chicken.jpg", videoUrl: "https://www.youtube.com/embed/F41s-b3sV1A" },
         { title: "SWAT Kats: The Radical Squadron", type: "Action / Sci-Fi", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/Bv1XmHz2/swat-kats.jpg", videoUrl: "https://www.youtube.com/embed/K_AdxJWFUh4" },
         { title: "Batman: The Animated Series", type: "Superhero / Action / Mystery", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/MGF76k7Z/batman-tas.jpg", videoUrl: "https://www.youtube.com/embed/rrmUk2YUm14" },
         { title: "Popeye the Sailor", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/0jH1K1vM/popeye.jpg", videoUrl: "https://www.youtube.com/embed/d3O7xPvhXzU" },
@@ -117,7 +103,6 @@ const cartoonData = {
         { title: "Digimon", type: "Anime / Fantasy / Sci-Fi", era: "Toonami Block / Anime", thumbnail: "https://i.postimg.cc/qM6XkV70/digimon.jpg", videoUrl: "https://www.youtube.com/embed/lA_S3gM209g" },
 
         // 2010s–Present
-        { title: "Bandbudh Aur Budbak", type: "School Comedy / Slapstick", era: "2010s–Present", thumbnail: "https://i.pinimg.com/736x/41/d2/88/41d288d0831627e7f0b5220a233b8fb0.jpg", videoUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" },
         { title: "Adventure Time", type: "Fantasy / Adventure / Surreal Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/4ydxptS9/adventure-time.jpg", videoUrl: "https://www.youtube.com/embed/bhM_I0S3k2k" },
         { title: "Regular Show", type: "Surreal Comedy / Sci-Fi", era: "2010s–Present", thumbnail: "https://i.postimg.cc/pLsK3KqZ/regular-show.jpg", videoUrl: "https://www.youtube.com/embed/y894sR_0X8s" },
         { title: "The Amazing World of Gumball", type: "Surreal / Slapstick Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/7Y0hS8zG/gumball.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" },
@@ -139,14 +124,13 @@ const cartoonData = {
         { title: "The Ren & Stimpy Show", type: "Surreal / Gross-out Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/37/c1/c3/37c1c3ab702902305d5016a683c4c73e.jpg", videoUrl: "https://www.youtube-nocookie.com/embed/aFv4BqQKc7s?playlist=aFv4BqQKc7s&autoplay=1&iv_load_policy=3&loop=1&start=" },
         { title: "Rocko's Modern Life", type: "Satirical / Surreal Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/df/a0/c3/dfa0c32b74775e87dbfbd6f61ba85f20.jpg", videoUrl: "https://www.youtube.com/embed/k8K2d4P3yE0" },
         { title: "Doug", type: "Coming-of-Age / Slice of Life", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/10/e5/12/10e512fda1a137eb073af065b93d46cf.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
-        { title: "CatDog", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/e6/9e/c0/e69ec056554ee71b75a9fbd4fd638cfa.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
-        { title: "The Angry Beavers", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/32/f5/0f/32f50f60efbe383d9a3a3b35b9d3e2a9.jpg", videoUrl: "https://www.youtube.com/embed/k8K2d4P3yE0" },
-        { title: "The Wild Thornberrys", type: "Adventure / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/8f/66/6e/8f666e8062375736d477d95ca7c41890.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
-        { title: "Rocket Power", type: "Sports / Slice of Life", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/00/85/86/0085861d6006a1565a8a7bf47403e0d7.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
+        { title: "CatDog", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/YqM8T8n1/catdog.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
+        { title: "The Angry Beavers", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/Pq0n2qJm/angry-beavers.jpg", videoUrl: "https://www.youtube.com/embed/k8K2d4P3yE0" },
+        { title: "The Wild Thornberrys", type: "Adventure / Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/MGF7v5Pz/wild-thornberrys.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
+        { title: "Rocket Power", type: "Sports / Slice of Life", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/3Rpxv2Jk/rocket-power.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
         { title: "KaBlam!", type: "Sketch Comedy / Variety", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/kG874cPy/kablam.jpg", videoUrl: "https://www.youtube.com/embed/k8K2d4P3yE0" },
 
         // 2000–2010 Golden Era
-        { title: "Chhota Bheem", type: "Action / Adventure / Fantasy", era: "2000–2010 Era", thumbnail: "https://i.pinimg.com/736x/8a/0a/73/8a0a73d325c83f3e1b369527f425b09e.jpg", videoUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" },
         { title: "Avatar: The Last Airbender", type: "Action / High Fantasy / Martial Arts", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/kG7T01Yg/avatar.jpg", videoUrl: "https://www.youtube.com/embed/d1EnW4kn1kg" },
         { title: "The Fairly OddParents", type: "Fantasy / Slapstick Comedy", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/J0bZ3qKk/fairly-oddparents.jpg", videoUrl: "https://www.youtube.com/embed/K9qN95F5q14" },
         { title: "Danny Phantom", type: "Superhero / Sci-Fi / Action", era: "2000–2010 Golden Era", thumbnail: "https://i.postimg.cc/RVTGzD1q/danny-phantom.jpg", videoUrl: "https://www.youtube.com/embed/74zJkEAn6Yk" },
@@ -172,7 +156,6 @@ const cartoonData = {
         { title: "Blaze and the Monster Machines", type: "STEM / Racing / Educational", era: "Preschool (Nick Jr.)", thumbnail: "https://i.postimg.cc/mD8T7P1M/blaze.jpg", videoUrl: "https://www.youtube.com/embed/0x9uX0m_gC4" },
 
         // 2010s–Present
-        { title: "Motu Patlu", type: "Slapstick Comedy / Action", era: "2010s–Present", thumbnail: "https://i.pinimg.com/736x/55/12/b4/5512b4e87071f69d30097f4fa11bd902.jpg", videoUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" },
         { title: "The Legend of Korra", type: "Action / High Fantasy / Steampunk", era: "2010s–Present", thumbnail: "https://i.postimg.cc/kG7T01Yg/legend-of-korra.jpg", videoUrl: "https://www.youtube.com/embed/d1EnW4kn1kg" },
         { title: "The Loud House", type: "Family / Slice of Life / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/7Y0hS8zG/loud-house.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" },
         { title: "The Casagrandes", type: "Family / Slice of Life / Comedy", era: "2010s–Present", thumbnail: "https://i.postimg.cc/7Y0hS8zG/casagrandes.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" },
@@ -191,15 +174,14 @@ const cartoonData = {
         { title: "Darkwing Duck", type: "Superhero / Action-Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/e3/ac/20/e3ac2059421b0da94c2a5f967bdbefa2.jpg", videoUrl: "https://www.youtube-nocookie.com/embed/3X6WEHM-7gU?list=PLTT1DDeL2giYJiCy8ZXF-7wwHo0D26l8-&autoplay=1&iv_load_policy=3&loop=1&start=" },
         { title: "Gargoyles", type: "Dark Fantasy / Action / Drama", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/83/3d/8d/833d8d65396c843ef002e119d68863f2.jpg", videoUrl: "https://www.youtube.com/embed/p1A4c14k_r4" },
         { title: "Goof Troop", type: "Family / Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/736x/f9/4f/60/f94f6029866bc747fad700f736d91549.jpg", videoUrl: "https://www.youtube.com/embed/2_m3LwA8S8k" },
-        { title: "Aladdin: The Animated Series", type: "Fantasy / Action / Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/d9/19/2d/d9192d3c21ac958ad3a0a3470c4fe0a3.jpg", videoUrl: "https://www.youtube.com/embed/gP0Neif7Y4E" },
-        { title: "The Little Mermaid", type: "Fantasy / Musical / Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/c9/c9/05/c9c9056a717240c3acd2ccf8a0d24eea.jpg", videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg" },
-        { title: "Timon & Pumbaa", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/3a/8d/76/3a8d76839f0b781ba40246e5e266a09d.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
-        { title: "Recess", type: "School Comedy / Slice of Life", era: "Pre-2000 Classics", thumbnail: "https://i.pinimg.com/1200x/32/03/af/3203afd2b1151cfdbf1e095b4ca17c30.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
+        { title: "Aladdin: The Animated Series", type: "Fantasy / Action / Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/c4W28vQ2/aladdin.jpg", videoUrl: "https://www.youtube.com/embed/gP0Neif7Y4E" },
+        { title: "The Little Mermaid", type: "Fantasy / Musical / Adventure", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/26L135V1/little-mermaid.jpg", videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg" },
+        { title: "Timon & Pumbaa", type: "Slapstick Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/L4hQ6fG9/timon-pumbaa.jpg", videoUrl: "https://www.youtube.com/embed/eX3-kR2h-iU" },
+        { title: "Recess", type: "School Comedy / Slice of Life", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/KjhGkbh4/recess.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
         { title: "Pepper Ann", type: "Coming-of-Age / Slice of Life", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/26L1m14M/pepper-ann.jpg", videoUrl: "https://www.youtube.com/embed/107_8jK0K4A" },
         { title: "Hercules: The Animated Series", type: "Mythology / Action-Comedy", era: "Pre-2000 Classics", thumbnail: "https://i.postimg.cc/c4W28vQ2/hercules.jpg", videoUrl: "https://www.youtube.com/embed/gP0Neif7Y4E" },
 
         // 2000–2010 Era
-        { title: "Bas Karo Henry", type: "Comedy / Slice of Life", era: "2000–2010 Era", thumbnail: "https://i.pinimg.com/736x/21/87/42/218742880a13ee124316d2524d7cb2cb.jpg", videoUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" },
         { title: "Phineas and Ferb", type: "Musical / Sci-Fi / Slapstick Comedy", era: "2000–2010 Era", thumbnail: "https://i.postimg.cc/26L135V1/phineas.jpg", videoUrl: "https://www.youtube.com/embed/4p8O2rSgJvg" },
         { title: "Kim Possible", type: "Action / Secret Agent / Teen Comedy", era: "2000–2010 Era", thumbnail: "https://i.postimg.cc/3RpxCsc3/kim-possible.jpg", videoUrl: "https://www.youtube.com/embed/h_D3VFfhvs4" },
         { title: "American Dragon: Jake Long", type: "Urban Fantasy / Superhero", era: "2000–2010 Era", thumbnail: "https://i.postimg.cc/pT3Y09kZ/jake-long.jpg", videoUrl: "https://www.youtube.com/embed/yP23g3B9z74" },
